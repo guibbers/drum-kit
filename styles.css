@@ -1,19 +1,25 @@
+:root {
+  --primary-color: #f7c7a1;
+  --secondary-color: #e59b7b;
+}
+
 body {
   text-align: center;
-  background-color: #283149;
+  background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
 }
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
+  color: #4ECCA3;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
 
 }
 
 footer {
-  color: #DBEDF3;
+  color: #DA0463;
   font-family: sans-serif;
+  font-size: 1.3rem;
 }
 
 .w {
@@ -78,4 +84,22 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+a {
+  color: #5ba37f;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 5px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:visited{
+  color: #5ba37f;
 }
